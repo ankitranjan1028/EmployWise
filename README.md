@@ -19,7 +19,7 @@ Remove users from the list using DELETE /api/users/{id} with instant UI update.
 🧭 React Router Integration <br>
 Smooth navigation between Login, User List, and Edit screens.
 
-🔍 Search <br>
+🔍 ** Search ** <br>
 Client-side search to quickly find users by name or.
 
 💅 Responsive UI <br>
