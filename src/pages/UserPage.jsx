@@ -6,7 +6,7 @@ import { GrFormNextLink, GrFormPreviousLink } from "react-icons/gr";
 import api from "../reqresApi";
 import UserCard from "../components/UserCard";
 import UpdateBox from "../components/UpdateBox";
-import { LuLogOut } from "react-icons/lu";
+import { TbLogout } from "react-icons/tb";
 
 const User = () => {
   const navigate = useNavigate();
@@ -93,7 +93,7 @@ const User = () => {
             onClick={handleLogout}
           >
             <span className="hidden md:block">Logout</span>
-            <LuLogOut color="red" />
+            <TbLogout color="red" />
           </button>
 
           <div className="relative w-full md:w-1/3">
