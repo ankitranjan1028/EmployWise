@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { toast } from "react-toastify";
-import api from "../axiosConfig";
+import api from "../reqresApi";
 
 const Login = () => {
   const nav = useNavigate();

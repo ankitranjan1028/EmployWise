@@ -3,7 +3,7 @@ import { useNavigate, useSearchParams } from "react-router";
 import { CiSearch } from "react-icons/ci";
 import { FadeLoader } from "react-spinners";
 import { GrFormNextLink, GrFormPreviousLink } from "react-icons/gr";
-import api from "../axiosConfig";
+import api from "../reqresApi";
 import UserCard from "../components/UserCard";
 import UpdateBox from "../components/UpdateBox";
 import { LuLogOut } from "react-icons/lu";

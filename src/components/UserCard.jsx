@@ -2,7 +2,7 @@
 import { FaUserEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { toast } from "react-toastify";
-import api from "../axiosConfig";
+import api from "../reqresApi";
 
 const UserCard = ({ user, setData, setShowUpdateBox, setSelectedUser }) => {
   const handleDelete = async (id) => {

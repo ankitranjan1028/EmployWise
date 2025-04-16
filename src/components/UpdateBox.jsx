@@ -1,5 +1,5 @@
 import { useState } from "react";
-import api from "../axiosConfig";
+import api from "../reqresApi";
 import { toast } from "react-toastify";
 import { IoClose } from "react-icons/io5";
 
