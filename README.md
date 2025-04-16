@@ -19,7 +19,7 @@ Remove users from the list using DELETE /api/users/{id} with instant UI update.
 🧭 React Router Integration <br>
 Smooth navigation between Login, User List, and Edit screens.
 
-🔍 ** Search ** <br>
+🔍 Search <br>
 Client-side search to quickly find users by name or.
 
 💅 Responsive UI <br>
@@ -27,7 +27,6 @@ Built with Tailwind CSS for a clean and responsive design.
 
 ⚠️ Error Handling & Validation <br>
 Form validation and user-friendly error messages on failed API calls or invalid inputs.
-
 
 ## Installation
 
