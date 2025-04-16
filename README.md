@@ -32,3 +32,9 @@ EmployWise is a comprehensive employee management system designed to streamline 
 2. Open your browser and navigate to `http://localhost:5173`.
 
 
+## 🔗 Live Demo
+
+Check out the deployed version here: [Live Site](https://employ-wise-neon.vercel.app/)
+
+
+
