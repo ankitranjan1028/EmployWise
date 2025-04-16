@@ -4,28 +4,28 @@ This is a React-based user management app built using the ReqRes API. It include
 
 ## Features
 
-🔐 Authentication
+## 🔐 Authentication
 Login with email and password using POST /api/login, storing the token securely in local storage.
 
-📋 Users List with Pagination
+## 📋 Users List with Pagination
 Fetches and displays users in a structured format using GET /api/users?page=1, with pagination or infinite scroll.
 
-✏️ Edit Users
+## ✏️ Edit Users
 Update user details (first name, last name, email) using PUT /api/users/{id}.
 
-❌ Delete Users
+## ❌ Delete Users
 Remove users from the list using DELETE /api/users/{id} with instant UI update.
 
-🧭 React Router Integration
+## 🧭 React Router Integration
 Smooth navigation between Login, User List, and Edit screens.
 
-🔍 Search
+## 🔍 Search
 Client-side search to quickly find users by name or.
 
-💅 Responsive UI
+## 💅 Responsive UI
 Built with Tailwind CSS for a clean and responsive design.
 
-⚠️ Error Handling & Validation
+## ⚠️ Error Handling & Validation
 Form validation and user-friendly error messages on failed API calls or invalid inputs.
 
 
