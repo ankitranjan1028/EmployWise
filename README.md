@@ -1,11 +1,32 @@
 # EmployWise
 
-EmployWise is a comprehensive employee management system designed to streamline HR processes and improve organizational efficiency.
+This is a React-based user management app built using the ReqRes API. It includes a login system, a paginated users list, and functionality to edit or delete user details. The app is fully responsive, handles API errors gracefully, and stores login state securely.
 
 ## Features
 
-- **Employee Management**: Add, update, and manage employee details.
-- **Animations**: Smooth transitions and animations for an enhanced user experience.
+🔐 Authentication
+Login with email and password using POST /api/login, storing the token securely in local storage.
+
+📋 Users List with Pagination
+Fetches and displays users in a structured format using GET /api/users?page=1, with pagination or infinite scroll.
+
+✏️ Edit Users
+Update user details (first name, last name, email) using PUT /api/users/{id}.
+
+❌ Delete Users
+Remove users from the list using DELETE /api/users/{id} with instant UI update.
+
+🧭 React Router Integration
+Smooth navigation between Login, User List, and Edit screens.
+
+🔍 Search
+Client-side search to quickly find users by name or.
+
+💅 Responsive UI
+Built with Tailwind CSS for a clean and responsive design.
+
+⚠️ Error Handling & Validation
+Form validation and user-friendly error messages on failed API calls or invalid inputs.
 
 
 ## Installation
@@ -32,7 +53,7 @@ EmployWise is a comprehensive employee management system designed to streamline 
 2. Open your browser and navigate to `http://localhost:5173`.
 
 
-## 🔗 Live Demo
+## Live Demo
 
 Check out the deployed version here: [Live Site](https://employ-wise-neon.vercel.app/)
 
